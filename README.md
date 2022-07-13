@@ -1,4 +1,4 @@
-# webdriverio-appium-app-browserstack
+# Sky - App Lesson 2 - Basic WebDriverIO Framework
 This repository demonstrates how to run Appium tests using [WebdriverIO](http://webdriver.io/) on BrowserStack App Automate.
 
 <div align="center">
