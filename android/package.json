@@ -1,0 +1,33 @@
+{
+  "name": "Sky App Lesson 2 - Basic Webdriver IO",
+  "version": "0.1.0",
+  "readme": "Basic WebdriverIO Project with [BrowserStack](https://www.browserstack.com) Integration",
+  "description": "Selenium examples for WebdriverIO and BrowserStack App Automate",
+  "scripts": {
+    "test": "npm run first && npm run local && npm run parallel",
+    "first": "./node_modules/.bin/wdio examples/run-first-test/first.conf.js",
+    "parallel": "./node_modules/.bin/wdio examples/run-parallel-test/parallel.conf.js",
+    "local": "./node_modules/.bin/wdio examples/run-local-test/local.conf.js",
+    "multiple": "./node_modules/.bin/wdio examples/run-multiple-test/multiple.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browserstack/webdriverio-appium-app-browserstack.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "browserstack",
+    "appium",
+    "tests"
+  ],
+  "bugs": {
+    "url": "https://github.com/browserstack/webdriverio-appium-app-browserstack/issues"
+  },
+  "homepage": "https://github.com/browserstack/webdriverio-appium-app-browserstack#readme",
+  "dependencies": {
+    "@wdio/cli": "^5.20.1",
+    "@wdio/local-runner": "^5.20.1",
+    "@wdio/mocha-framework": "^5.18.7",
+    "browserstack-local": "^1.4.5"
+  }
+}
