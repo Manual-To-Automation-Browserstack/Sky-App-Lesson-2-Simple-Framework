@@ -1,5 +1,5 @@
 {
-  "name": "Sky App Lesson 2 - Basic Webdriver IO",
+  "name": "sky-app-lesson-2-framework",
   "version": "0.1.0",
   "readme": "Basic WebdriverIO Project with [BrowserStack](https://www.browserstack.com) Integration",
   "description": "Selenium examples for WebdriverIO and BrowserStack App Automate",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/browserstack/webdriverio-appium-app-browserstack.git"
+    "url": "git+https://github.com/Manual-To-Automation-Browserstack/Sky-App-Lesson-2-Simple-Framework.git"
   },
   "keywords": [
     "webdriverio",
@@ -21,9 +21,9 @@
     "tests"
   ],
   "bugs": {
-    "url": "https://github.com/browserstack/webdriverio-appium-app-browserstack/issues"
+    "url": "https://github.com/Manual-To-Automation-Browserstack/Sky-App-Lesson-2-Simple-Framework/issues"
   },
-  "homepage": "https://github.com/browserstack/webdriverio-appium-app-browserstack#readme",
+  "homepage": "https://github.com/Manual-To-Automation-Browserstack/Sky-App-Lesson-2-Simple-Framework#readme",
   "dependencies": {
     "@wdio/cli": "^5.20.1",
     "@wdio/local-runner": "^5.20.1",
